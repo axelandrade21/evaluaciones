@@ -2,8 +2,166 @@
 <html>
 <head>
 	<title>Evaluacion 01</title>
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">.
+	<style type="text/css">
+		html{
+			height: 100%;
+		}
+
+		body{
+
+			display: flex;
+			flex-direction: column;
+			min-height: 100%;
+		}
+
+		footer{
+			display: flex;
+			justify-content: center;
+			align-content: center;
+			background-color: yellow;
+			margin-top: auto;
+
+		}
+
+
+		footer ul{
+			margin: 20px;
+		}
+
+		.producto{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			border: 1px solid black;
+			margin: 3px 3px 3px 3px;
+		}
+		.producto h3,label,button{
+			margin: 13px;
+		}
+
+		.container{
+			margin-bottom: 30px;
+		}
+
+		p{
+			margin-top: 20px;
+		}
+
+		@media (max-width: 767px) {
+			.producto-fila{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.producto{
+				width: 70%;
+			}
+
+			footer{
+				display: flex;
+				flex-direction: column;
+
+			}
+
+			p{
+				
+				padding:  2px;
+				text-align: justify;
+			}
+		}
+		
+
+	</style>
 </head>
 <body>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			</div>
+
+		</div>
+
+		<div class="row producto-fila">
+			<div class="col producto">
+				<h3>Producto </h3>
+				<label>Descripcion</label>
+				<button type="button" class="btn btn-primary">Botón</button>
+			</div>
+			<div class="col producto">
+				<h3>Producto </h3>
+				<label>Descripcion</label>
+				<button type="button" class="btn btn-primary">Botón</button>
+				
+			</div>
+			<div class="col producto">
+				<h3>Producto </h3>
+				<label>Descripcion</label>
+				<button type="button" class="btn btn-primary">Botón</button>
+				
+			</div>
+			<div class="col producto">
+				<h3>Producto </h3>
+				<label>Descripcion</label>
+				<button type="button" class="btn btn-primary">Botón</button>
+				
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="col">
+			<ul>
+				<li>Red 1</li>
+				<li>Red 2</li>
+				<li>Red 3</li>
+
+			</ul>
+		</div>
+
+		<div class="col">
+			<ul>
+				<li>Detalles comercio</li>
+				
+
+			</ul>
+		</div>
+
+		<div class="col">
+			<ul>
+				<li>Otros</li>
+				
+
+			</ul>
+		</div>
+
+	</footer>
+	
+
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="node_modules/popper.js/dist/popper.min.js"></script>
 </body>
 </html>
